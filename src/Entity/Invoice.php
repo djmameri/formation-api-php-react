@@ -84,7 +84,7 @@ class Invoice
     /**
      * @ORM\Column(type="integer")
      * @Groups({"invoices_read", "customers_read", "invoices_subresource"})
-     * @Assert\NotBlank(message="Il faut absulement un chrono  pour la facture")
+     * @Assert\NotBlank(message="Il faut absolument un chrono  pour la facture")
      * @Assert\Type(type="integer", message="Le chrono doit etre un nombre !")
      * 
      */
