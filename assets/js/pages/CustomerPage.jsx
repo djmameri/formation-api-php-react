@@ -35,6 +35,7 @@ const CustomerPage = ({match, history}) => {
             setLoading(false);
         } catch (error) {
             toast.error("Le client n'a pas pu être chargé");
+            console.log(error);
             history.replace('/customers');
         }
         
